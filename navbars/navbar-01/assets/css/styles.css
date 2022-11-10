@@ -35,7 +35,7 @@ button {
   height: 64px;
   background: var(--color-primary-jet);
   color: var(--color-pale-silver);
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
@@ -126,12 +126,12 @@ body.open .navbar-menu {
   }
 }
 
-.navbar-menu > button {
+.navbar-menu>button {
   color: rgba(193, 189, 179, 0.5);
   background: transparent;
   padding: 0 8px;
 }
 
-.navbar-menu > button.active {
+.navbar-menu>button.active {
   color: inherit;
 }

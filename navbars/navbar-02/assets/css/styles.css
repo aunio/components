@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 button {
@@ -22,7 +23,7 @@ button {
   left: -10%;
   width: 120%;
   height: 120%;
-  background-image: url("../img/bg.jpeg");
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,13 +65,13 @@ body.open .background {
   place-items: center;
   width: 72px;
   height: 72px;
-  background-image: url("../img/menu.svg");
+  background-image: url("../img/icon-menu.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 body.open .navbar-burger {
-  background-image: url("../img/close.svg");
+  background-image: url("../img/icon-close.svg");
 }
 
 .menu {
@@ -98,7 +99,6 @@ body.open .menu {
 .menu>a {
   color: #f9f9f9;
   font-size: 32px;
-  font-family: "Euclid Circular A";
   text-decoration: none;
 }
 
