@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar 1</title>
+
+    <title>Navbar 02</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"
-    />
-    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <script type="text/javascript" src="./assets/js/scripts.js" defer></script>
   </head>
   <body>
     <div class="background"></div>
     <nav class="navbar">
       <img class="navbar-logo" src="./assets/img/logo.png" />
     </nav>
-    <button class="navbar-burger" onclick="toggleMenu()"></button>
+    <button class="navbar-burger"></button>
     <nav class="menu">
       <a href="#" style="animation-delay: 0.1s">Home</a>
       <a href="#" style="animation-delay: 0.2s">About</a>
@@ -30,10 +28,5 @@
       <a href="#" style="animation-delay: 0.4s">Products</a>
       <a href="#" style="animation-delay: 0.5s">Contact</a>
     </nav>
-    <script type="text/javascript">
-      const toggleMenu = () => {
-        document.body.classList.toggle("open");
-      };
-    </script>
   </body>
 </html>
